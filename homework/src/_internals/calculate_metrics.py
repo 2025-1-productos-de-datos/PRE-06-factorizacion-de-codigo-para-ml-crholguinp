@@ -1,8 +1,8 @@
 
 
 # Metricas de error durante testing
-from sklearn.base import r2_score
-from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
 
 def calculate_metrics(model, x, y):
     """Calculate and return MSE, MAE, and R2 metrics."""
